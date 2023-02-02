@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+    --primary-color: #3666F4;
+}
+
+body {
+    font-family: 'Poppins', sans-serif !important;
+}
+
+#left-content {
+    width: 100%;
+}
+
+h1 {
+    font-weight: 600;
+}
+
+h1 span {
+    font-weight: 800;
+    color: var(--primary-color);
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--primary-color);
+}
+
+#github-icon img, #linkedin-icon img {
+    height: 25px;
+}
+
+.skill {
+    /* width: 100px; */
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (min-width: 1200px) { 
+
+    #left-content {
+        width: 50%;
+    }
+
+}
