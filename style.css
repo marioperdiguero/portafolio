@@ -6,6 +6,7 @@
 
 body {
     font-family: 'Poppins', sans-serif !important;
+    cursor: url('./resources/cursor.png'), auto;
 }
 
 #left-content {
@@ -31,12 +32,25 @@ h2 {
     height: 25px;
 }
 
+#social-icons>a {
+    transition: all ease 0.25s;
+}
+
+#social-icons>a:hover {
+    transform: scale(1.2);
+}
+
 .skill {
     /* width: 100px; */
     height: 100px;
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: all ease 0.25s;
+}
+
+.skill:hover {
+    box-shadow: 0 0.5rem 1rem rgba(54, 102, 244,0.33)!important;
 }
 
 @media (min-width: 1200px) { 
